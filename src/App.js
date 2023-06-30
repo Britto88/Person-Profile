@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 
 class App extends Component {
   state = {
@@ -41,7 +42,7 @@ class App extends Component {
           <div>
             <h1>{fullName}</h1>
             <img src={imgSrc} alt="Profile" />
-            <p>{bio}</p>
+            <p className="mybio">{bio}</p>
             <p>{profession}</p>
           </div>
         )}
